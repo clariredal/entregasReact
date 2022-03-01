@@ -2,6 +2,7 @@
 import './App.css';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
+import ItemListContainer from './container/ItemListContainer';
 
 function App() {
 
@@ -10,13 +11,14 @@ function App() {
     color: "brown",
     fontSize:"30px"
   }
+
   return (
     <>
-    <NavBar></NavBar>
+    <NavBar props={NavBar}/>
     <div className="App">
       <h1 style={styleH1} className="p-10">{mensajeBienvenida}</h1>
-      <Footer name='Clari'>
-      </Footer>
+      <ItemListContainer props={ItemListContainer}/>
+      <Footer name='Clari'></Footer>
     </div>
     </>
   );

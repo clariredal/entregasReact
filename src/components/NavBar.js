@@ -3,7 +3,7 @@ import CartWidget from './CartWidget'
 
 const NavBar = () => {
 
-    const styleNav ={
+    const styleNav={
         backgroundColor: "#ffcd19",
         height:"80px",
         color:"white"
@@ -20,7 +20,7 @@ const NavBar = () => {
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
             <a className="mr-7 hover:text-gray-900">TATUAJES</a>
             <a className="mr-7 hover:text-gray-900">PIERCINGS</a>
-            <a class="mr-7 hover:text-gray-900">TURNOS</a>
+            <a className="mr-7 hover:text-gray-900">TURNOS</a>
             <a className="mr-7 hover:text-gray-900">SOBRE NOSOTRXS</a>
         </nav>
         <button>
